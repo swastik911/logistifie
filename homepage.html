@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomePage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./dist/css/style.css" />
+  </head>
+  <body>
+    <header class="site_header fixed-top autohide">
+      <div class="container border-0">
+        <div class="contacts">
+          <ul class="numbers">
+            <li>
+              <a href=""
+                ><img
+                  src="./assets/icons/dialer-black-circle.svg"
+                  alt=""
+                />+445667845645</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="./assets/icons/location-black-circle.svg"
+                  alt=""
+                />+445667845645</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="./assets/icons/clock-black-circle.svg"
+                  alt=""
+                />+445667845645</a
+              >
+            </li>
+          </ul>
+          <ul class="social">
+            <li>
+              <a href=""><img src="./assets/icons/instagram-white.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./assets/icons/twiter-white.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./assets/icons/linkedin-white.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./assets/icons/facebook-white.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="logo_outter" href="#">
+            <div class="logo">
+              <img src="./assets/icons/logo.svg" alt="" />
+              <img src="./assets/icons/CARS.svg" alt="" class="cars" />
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img
+              src="./assets/icons/burger-menu.svg"
+              alt=""
+              class="burger_menu"
+            />
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav_link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav_link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav_link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav_link" href="#">Icars Choices</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav_link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav_link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="banner_section">
+      <div class="banner_slider">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="slider_content">
+                <p>THIS IS THE DUMMY CONTENT</p>
+                <h1>YOUR TRAVELCOMPANION</h1>
+                <button class="yellow_btn">Find Services</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slider_content">
+                <p>THIS IS THE DUMMY CONTENT</p>
+                <h1>YOUR TRAVELCOMPANION</h1>
+                <button class="yellow_btn">Find Services</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slider_content">
+                <p>THIS IS THE DUMMY CONTENT</p>
+                <h1>YOUR TRAVELCOMPANION</h1>
+                <button class="yellow_btn">Find Services</button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span>PREV</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span>NEXT</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="first_section">
+      <h1 class="section_title mpr_16">THIS IS THE DUMMY CONTENT</h1>
+      <div class="cards_wrapper">
+        <div class="cards">
+          <div class="img_wrap">
+            <img src="./assets/images/cards-img-1.png" alt="" />
+          </div>
+          <h6 class="card_title">Mercedes S Class</h6>
+          <div class="product_info">
+            <div class="each_info">
+              <img src="./assets/icons/people.svg" alt="" />
+              <span>max. 3</span>
+            </div>
+            <div class="each_info">
+              <img src="./assets/icons/vehicle.svg" alt="" />
+              <span>max. 2</span>
+            </div>
+          </div>
+          <button class="yellow_btn">Book now</button>
+        </div>
+        <div class="cards">
+          <div class="img_wrap">
+            <img src="./assets/images/cards-img-2.png" alt="" />
+          </div>
+          <h6 class="card_title">Mercedes S Class</h6>
+          <div class="product_info">
+            <div class="each_info">
+              <img src="./assets/icons/people.svg" alt="" />
+              <span>max. 3</span>
+            </div>
+            <div class="each_info">
+              <img src="./assets/icons/vehicle.svg" alt="" />
+              <span>max. 2</span>
+            </div>
+          </div>
+          <button class="yellow_btn">Book now</button>
+        </div>
+        <div class="cards">
+          <div class="img_wrap">
+            <img src="./assets/images/cards-img-3.png" alt="" />
+          </div>
+          <h6 class="card_title">Mercedes S Class</h6>
+          <div class="product_info">
+            <div class="each_info">
+              <img src="./assets/icons/people.svg" alt="" />
+              <span>max. 3</span>
+            </div>
+            <div class="each_info">
+              <img src="./assets/icons/vehicle.svg" alt="" />
+              <span>max. 2</span>
+            </div>
+          </div>
+          <button class="yellow_btn">Book now</button>
+        </div>
+      </div>
+    </section>
+    <section class="second_section bg_grey">
+      <div class="content_wrapper">
+        <h1 class="section_title">THIS IS THE DUMMY CONTENT</h1>
+        <div class="grid_view">
+          <div class="left">
+            <div class="with_img">
+              <p>
+                We take pride in the high level of chauffeur service provided by
+                all of our chauffeurs and the care and respect that they take in
+                servicing the needs of our customers.
+              </p>
+              <img
+                src="./assets/images/grid-img-2-for-mobile.png"
+                alt=""
+                class="for_mobile"
+              />
+              <img
+                src="./assets/images/grid-img-1.png"
+                alt=""
+                class="for_tab"
+              />
+            </div>
+            <img src="./assets/images/grid-img-2.png" alt="" />
+          </div>
+          <div class="right">
+            <img src="./assets/images/grid-img-1.png" alt="" class="for_web" />
+            <div class="text_btn">
+              <p>
+                We take pride in the high level of chauffeur service provided by
+                all of our chauffeurs and the care and respect that they take in
+                servicing the needs of our customers.
+              </p>
+              <p>
+                We take pride in the high level of chauffeur service provided by
+                all of our chauffeurs and the care and respect that they take in
+                servicing the needs of our customers.
+              </p>
+              <p>
+                We take pride in the high level of chauffeur service provided by
+                all of our chauffeurs and the care and respect that they take in
+                servicing the needs of our customers.
+              </p>
+              <button class="yellow_btn">Book now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="third_section">
+      <h1 class="section_title mb_100">THIS IS THE DUMMY CONTENT</h1>
+      <article class="article">
+        <div class="img_wrap">
+          <img src="./assets/images/article-img-1.png" alt="" />
+        </div>
+        <div class="article_info">
+          <div class="info_texts">
+            <p class="info_subtitle">our services at high end</p>
+            <h6 class="info_title">
+              THESE ARE THE DUMMY CONTENT AND THE THESE ARE TEHRE IN THIS
+              WEBSITE AND THIS IS NOT THE REAL CONTENT JUST A DUMMY
+            </h6>
+            <p class="info_description">
+              We take pride in the high level of chauffeur service provided by
+              all of our chauffeurs and the care and respect that they take in
+              servicing the needs of our customers.
+            </p>
+          </div>
+          <button class="yellow_btn">Book now</button>
+        </div>
+      </article>
+    </section>
+    <section class="fourth_section bg_grey">
+      <article class="article mobile_reverse_order">
+        <div class="article_info align_right">
+          <div class="info_texts">
+            <p class="info_subtitle">our services at high end</p>
+            <h6 class="info_title">
+              THESE ARE THE DUMMY CONTENT AND THE THESE ARE TEHRE IN THIS
+              WEBSITE AND THIS IS NOT THE REAL CONTENT JUST A DUMMY
+            </h6>
+            <p class="info_description">
+              We take pride in the high level of chauffeur service provided by
+              all of our chauffeurs and the care and respect that they take in
+              servicing the needs of our customers.
+            </p>
+          </div>
+          <button class="yellow_btn">Book now</button>
+        </div>
+        <div class="img_wrap">
+          <img src="./assets/images/article-img-2.png" alt="" />
+        </div>
+      </article>
+    </section>
+    <section class="fifth_section">
+      <article class="article">
+        <div class="img_wrap">
+          <img src="./assets/images/article-img-1.png" alt="" />
+        </div>
+        <div class="article_info">
+          <div class="info_texts">
+            <p class="info_subtitle">our services at high end</p>
+            <h6 class="info_title">
+              THESE ARE THE DUMMY CONTENT AND THE THESE ARE TEHRE IN THIS
+              WEBSITE AND THIS IS NOT THE REAL CONTENT JUST A DUMMY
+            </h6>
+            <p class="info_description">
+              We take pride in the high level of chauffeur service provided by
+              all of our chauffeurs and the care and respect that they take in
+              servicing the needs of our customers.
+            </p>
+          </div>
+          <button class="yellow_btn">Book now</button>
+        </div>
+      </article>
+    </section>
+    <section class="profile_section bg_grey">
+      <div class="profile_slider">
+        <div id="ProfileSlider" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#ProfileSlider"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#ProfileSlider"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#ProfileSlider"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="profile_card">
+                <img
+                  src="./assets/images/profile-card-img-1.png"
+                  alt=""
+                  class="profile_img"
+                />
+                <div class="profile_data">
+                  <div class="data_inner">
+                    <div class="name_header">
+                      <h3 class="name">Jonathan Miller</h3>
+                      <div class="ratings">
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                      </div>
+                    </div>
+                    <p class="location">California, US</p>
+                    <p class="about">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus.
+                    </p>
+                    <a href=""
+                      ><img src="./assets/icons/twiter-yellow.svg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="profile_card">
+                <img
+                  src="./assets/images/profile-card-img-1.png"
+                  alt=""
+                  class="profile_img"
+                />
+                <div class="profile_data">
+                  <div class="data_inner">
+                    <div class="name_header">
+                      <h3 class="name">Jonathan Miller</h3>
+                      <div class="ratings">
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                      </div>
+                    </div>
+                    <p class="location">California, US</p>
+                    <p class="about">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus.
+                    </p>
+                    <a href=""
+                      ><img src="./assets/icons/twiter-yellow.svg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="profile_card">
+                <img
+                  src="./assets/images/profile-card-img-1.png"
+                  alt=""
+                  class="profile_img"
+                />
+                <div class="profile_data">
+                  <div class="data_inner">
+                    <div class="name_header">
+                      <h3 class="name">Jonathan Miller</h3>
+                      <div class="ratings">
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                        <img src="./assets/icons/star-fill-full.svg" alt="" />
+                      </div>
+                    </div>
+                    <p class="location">California, US</p>
+                    <p class="about">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus.
+                    </p>
+                    <a href=""
+                      ><img src="./assets/icons/twiter-yellow.svg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#ProfileSlider"
+            data-bs-slide="prev"
+          >
+            <img src="./assets/icons/yellow-arrow-left.svg" alt="" />
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#ProfileSlider"
+            data-bs-slide="next"
+          >
+            <img src="./assets/icons/yellow-arrow-left.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="site_footer">
+      <div class="footer_content">
+        <div class="logo_part">
+          <div class="logo">
+            <img src="./assets/icons/logo.svg" alt="" />
+            <img src="./assets/icons/CARS.svg" alt="" class="cars" />
+          </div>
+          <p>
+            We take pride in the high level of <br />
+            chauffeur service.
+          </p>
+        </div>
+        <div class="company_links">
+          <div class="each_part">
+            <h5 class="title">Business Solutions</h5>
+            <ul class="links">
+              <li><a href="">Corporate</a></li>
+              <li><a href="">Travel Agencies</a></li>
+              <li><a href="">Event Management</a></li>
+            </ul>
+            <ul class="bold_links">
+              <li><a href="">Our Fleets</a></li>
+              <li><a href="">Become a Supplier</a></li>
+            </ul>
+          </div>
+          <div class="each_part">
+            <h5 class="title">Services</h5>
+            <ul class="links">
+              <li><a href="">Airport Transfers</a></li>
+              <li><a href="">Road Shows</a></li>
+              <li><a href="">Event Transfers</a></li>
+              <li><a href="">Intercity Transfers</a></li>
+            </ul>
+            <ul class="bold_links">
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Blogs</a></li>
+            </ul>
+          </div>
+          <div class="each_part">
+            <h5 class="title">Top Cities</h5>
+            <ul class="links">
+              <li><a href="">London</a></li>
+              <li><a href="">Paris</a></li>
+              <li><a href="">Rome</a></li>
+              <li><a href="">Dubai</a></li>
+              <li><a href="">Istanbul</a></li>
+              <li><a href="">Singapore</a></li>
+            </ul>
+          </div>
+          <div class="each_part">
+            <h5 class="title">LEGALS</h5>
+            <ul class="links">
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">GDPR Policy</a></li>
+            </ul>
+            <ul class="highlighted_links">
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Chat with Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="for_mobile">
+          <h4 class="call_us">CALL US ON</h4>
+          <h1 class="number">9323877725</h1>
+          <button class="map_btn">
+            <img src="./assets/icons/location-pin.svg" alt="" />MCars on Map
+          </button>
+          <h4 class="download_text">Download Our APP</h4>
+          <button class="apple_button">
+            <img src="./assets/images/applestore.png" alt="" />
+          </button>
+          <ul class="social_links">
+            <li>
+              <a href=""
+                ><div class="icon_wrap">
+                  <img src="./assets/icons/facebook.svg" alt="" />
+                </div>
+                Facebook</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><div class="icon_wrap">
+                  <img src="./assets/icons/instagram.svg" alt="" />
+                </div>
+                Instagram</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><div class="icon_wrap">
+                  <img src="./assets/icons/google.svg" alt="" />
+                </div>
+                Maps</a
+              >
+            </li>
+          </ul>
+          <p class="copyright_text">
+            COPYRIGHT © 2022 FABCARS | ALL RIGHTS <br />
+            RESERVED.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
